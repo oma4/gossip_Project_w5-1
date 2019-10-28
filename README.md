@@ -1,11 +1,10 @@
-# gossip_Project_w5-1
+<h1>README</h1>
 
-    faire un :
-    git clon
-    bundle install
-    db:create # BDD
-    db:migrate  # tables de la BDD
-    rails db:seed 
-    $ rails server
-    http://localhost:3000/homepage
-    
+<h4>Ce repo contient tout ce qu'il faut pour créer une base de donnée pour un site de Gossip en ligne (oulala cé trow cool)</h4>
+<h4>#GossipGirl #ITforthefutur</h4>
+
+<h4>Pour ouvrir la base de donnée, il suffit de lancer le fichier seed.rb et d'aller voir dans ta console : les bases se créent d'elle même. </h4>
+
+<h4>Ruby version 2.5.1</h4>
+
+<h3><strong>Have fun!!</strong></h3>

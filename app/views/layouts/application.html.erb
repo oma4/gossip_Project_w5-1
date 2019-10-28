@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>GossipProject</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+<header> 
+<nav class="my-2 my-md-0 mr-md-3">
+        <a class="p-2 text-dark" href="homepage">Gossip</a>
+        <a class="p-2 text-dark" href="team">Team</a>
+        <a class="p-2 text-dark" href="contact">Contact</a>
+        
+      </nav>
+</header>
+      
+<body>
+
+    <%= yield %>
+
+  </body>
+</html>
+
+    
